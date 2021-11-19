@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "24c738e1-1e61-4a37-8982-1541abdb9291": {
+      "ProjectGuid": "24c738e1-1e61-4a37-8982-1541abdb9291",
+      "DisplayName": "MyStockWebAPI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
