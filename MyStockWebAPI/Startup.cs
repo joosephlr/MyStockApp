@@ -22,6 +22,8 @@ namespace MyStockWebAPI
             Configuration = configuration;
         }
 
+        readonly string CorsApi = "_corsApi";
+
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime. Use this method to add services to the container.
@@ -29,7 +31,14 @@ namespace MyStockWebAPI
         {
             services.AddDbContext<Contexto>(opcoes => opcoes.UseSqlServer(Configuration.GetConnectionString("ConexaoBD")));
 
-            services.AddCors();
+            //services.AddCors();
+            services.AddCors(options =>
+            {
+                options.AddPolicy(CorsApi,
+                    builder => builder.WithOrigins("http://localhost:4200", "http://localhost:4200")
+                .AllowAnyHeader()
+                .AllowAnyMethod());
+            });
 
             services.AddControllers();
         }
@@ -46,6 +55,7 @@ namespace MyStockWebAPI
 
             app.UseRouting();
 
+            //Permite que aceite qualquer requisição e método recebido.
             app.UseCors(opcoes => opcoes.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
 
             app.UseAuthorization();

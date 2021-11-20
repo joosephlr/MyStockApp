@@ -5724,19 +5724,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\uz82526\\.nuget\\packages\\": {}
+    "C:\\Users\\josel\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MyStockAppRepo\\MyStockWebAPI\\MyStockWebAPI.csproj",
+      "projectUniqueName": "D:\\MyStockApp\\MyStockWebAPI\\MyStockWebAPI.csproj",
       "projectName": "MyStockWebAPI",
-      "projectPath": "D:\\MyStockAppRepo\\MyStockWebAPI\\MyStockWebAPI.csproj",
-      "packagesPath": "C:\\Users\\uz82526\\.nuget\\packages\\",
-      "outputPath": "D:\\MyStockAppRepo\\MyStockWebAPI\\obj\\",
+      "projectPath": "D:\\MyStockApp\\MyStockWebAPI\\MyStockWebAPI.csproj",
+      "packagesPath": "C:\\Users\\josel\\.nuget\\packages\\",
+      "outputPath": "D:\\MyStockApp\\MyStockWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\uz82526\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\josel\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5801,20 +5801,8 @@
         "warn": true,
         "downloadDependencies": [
           {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.10, 3.1.10]"
-          },
-          {
             "name": "Microsoft.NETCore.App.Host.win-x64",
             "version": "[3.1.21, 3.1.21]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
-          },
-          {
-            "name": "Microsoft.WindowsDesktop.App.Ref",
-            "version": "[3.1.0, 3.1.0]"
           }
         ],
         "frameworkReferences": {

@@ -1,0 +1,17 @@
+/* Caso precise adicionar algum css, adicione aqui nesta classe do component. */
+
+.header{
+  background:black;
+  color: white;
+  text-align: center;
+}
+
+ table,
+table td {
+  border: 1px solid #cccccc;
+  border-radius: 7px;
+}
+
+.footer{
+  background: gray;
+}
