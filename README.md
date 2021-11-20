@@ -39,5 +39,4 @@ Update-Database
 - Rodar a aplicação MyStockWebAPI, com o comando 'dotnet run', ou pela interface do Visual Studio Community.
 - Rodar a aplicação MyStockAppAngular, com o comando 'ng serve' pelo Visual Studio Code.
   
-:exclamation:
-> Lembre-se de trocar a connection string para a do seu banco local e realizar os comandos do migration.
+> :exclamation: Lembre-se de trocar a connection string para a do seu banco local e realizar os comandos do migration.
