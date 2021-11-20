@@ -24,8 +24,14 @@ Aplicação web desenvolvida para teste prático e aprofundamento de novos conhe
 npm install -g @angular/cli@11.0.0
 ```
 - No projeto MyStockWebAPI, trocar a connection string para a instância do seu servidor SQL Server, que fica no arquivo 'appsettings.json'.
-- Com o projeto MyStockWebAPI aberto na IDE, rodar o comando do migration 'Add-Migration <nomeDaMigration>', e posterior 'Update-Database'.
-  Esses comandos são responsáveis por criar o banco de dados e a tabela em seu banco.
+- Com o projeto MyStockWebAPI aberto na IDE, rodar os seguintes comandos do migration, eles são responsáveis por criar o banco de dados e a tabela em seu banco. 
+```
+Add-Migration <nomeDaMigration>
+```
+
+```
+Update-Database
+```
 - Rodar a aplicação MyStockWebAPI, com o comando 'dotnet run', ou pela interface do Visual Studio Community.
 - Rodar a aplicação MyStockAppAngular, com o comando 'ng serve' pelo Visual Studio Code.
   
