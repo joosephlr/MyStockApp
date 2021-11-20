@@ -2,6 +2,10 @@
 
 Aplicação web desenvolvida para teste prático e aprofundamento de novos conhecimentos.
 
+![ScreenshotsMyStockApp](https://github.com/joosephlr/MyStockApp/blob/main/PrintsMyStockApp.png)
+
+Acesse o caso de uso da aplicação, clicando [aqui](https://github.com/joosephlr/MyStockApp/blob/main/CasosdeUso-AppMyStock.png).
+
 ## Ferramentas utilizadas: 
 
 - Microsoft Sql Server.
