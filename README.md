@@ -40,4 +40,5 @@ Update-Database
 - Rodar a aplicação MyStockAppAngular, com o comando 'ng serve' pelo Visual Studio Code.
   
 > :exclamation: Lembre-se de trocar a connection string para a do seu banco local e realizar os comandos do migration.
+> 
 > :exclamation: Quando rodar a aplicação do angular, projeto 'MyStockAppAngular', é preciso acrescentar na url a palavra 'produtos', ficando assim 'https://localhost:4200/produtos'
