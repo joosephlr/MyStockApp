@@ -4,7 +4,7 @@ Aplicação web desenvolvida para teste prático e aprofundamento de novos conhe
 
 ![ScreenshotsMyStockApp](https://github.com/joosephlr/MyStockApp/blob/main/PrintsMyStockApp.png)
 
-Acesse o caso de uso da aplicação, clicando [aqui](https://github.com/joosephlr/MyStockApp/blob/main/CasosdeUso-AppMyStock.png).
+Acesse o caso de uso da aplicação, clicando [aqui](https://github.com/joosephlr/MyStockApp/blob/main/ScreenshotApp.png).
 
 ## Ferramentas utilizadas: 
 
