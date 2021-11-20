@@ -15,7 +15,7 @@ Acesse o caso de uso da aplicação, clicando [aqui](https://github.com/joosephl
 ## Tecnologias utilizadas:
 
 - Para o back-end foi utilizado .NET 5 (c#), recursos do Identity, como o Migrations e para a parte de banco, Sql Server Management Studio.
-- Para o front-end, foi utilizado o Angular 11, fazendo o consumo da API desenvolvida, e demonstrando na tela para o usuário final, tendo as operações de CRUD disponíveis. A parte de CSS, foi feita utilizando Bootstrap.
+- Para o front-end, foi utilizado o Angular 11, fazendo o consumo da API desenvolvida, e demonstrando na tela para o usuário final, tendo as operações de CRUD disponíveis. A parte de CSS, foi feita utilizando Bootstrap e TypeScript.
 
 ## Orientações para rodar a aplicação localmente
 
